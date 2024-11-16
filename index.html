@@ -1,0 +1,287 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Facebook Clone
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <!-- Navbar -->
+  <nav class="navbar">
+   <div class="container">
+    <div class="flex items-center">
+     <img alt="Facebook logo placeholder" class="h-10 w-10" height="40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtBILdC5ouxGYjeaYJPmVqMsSpsItocXSI5A&s" width="40"/>
+     <h1>
+      Facebook
+     </h1>
+    </div>
+    <div class="flex items-center">
+     <input placeholder="Search Facebook" type="text"/>
+     <a href="#">
+      <i class="fas fa-home fa-lg">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fas fa-user-friends fa-lg">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fas fa-bell fa-lg">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fas fa-user-circle fa-lg">
+      </i>
+     </a>
+    </div>
+   </div>
+  </nav>
+  <!-- Main Content -->
+  <div class="container main-content">
+   <!-- Sidebar -->
+   <div class="sidebar">
+    <div class="card">
+     <h2>
+      Shortcuts
+     </h2>
+     <ul>
+      <li>
+       <a href="#">
+        Friends
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        Groups
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        Marketplace
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        Watch
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        Memories
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <!-- Feed -->
+   <div class="feed">
+    <!-- Create Post -->
+    <div class="card create-post">
+     <div class="input-group">
+      <img alt="User profile picture placeholder" class="h-10 w-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/Gd0kErfowfoXjUTDer82p8ezEZ5DBxQELjoqswtUmMtoI93OB.jpg" width="40"/>
+      <input id="postInput" placeholder="What's on your mind?" type="text"/>
+     </div>
+     <div class="actions">
+      <button>
+       <i class="fas fa-video">
+       </i>
+       <span>
+        Live Video
+       </span>
+      </button>
+      <button>
+       <i class="fas fa-photo-video">
+       </i>
+       <span>
+        Photo/Video
+       </span>
+      </button>
+      <button>
+       <i class="fas fa-smile">
+       </i>
+       <span>
+        Feeling/Activity
+       </span>
+      </button>
+      <button id="postButton">
+       <i class="fas fa-paper-plane">
+       </i>
+       <span>
+        Post
+       </span>
+      </button>
+     </div>
+    </div>
+    <!-- Posts -->
+    <div id="postsContainer">
+     <div class="card post">
+      <div class="header">
+       <img alt="User profile picture placeholder" class="h-10 w-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/Gd0kErfowfoXjUTDer82p8ezEZ5DBxQELjoqswtUmMtoI93OB.jpg" width="40"/>
+       <div>
+        <h3>
+         Daniel
+        </h3>
+        <p>
+         2 hrs ago
+        </p>
+       </div>
+      </div>
+      <p>
+       Had a great day at the park with family!
+      </p>
+      <img alt="Image of a family having a picnic in the park" class="w-full rounded-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/dOwF9dBcJqI8Ct1z7wZUZJHzcxhDAeryikPOqDYV6wXGpftTA.jpg" width="600"/>
+      <div class="actions">
+       <button>
+        <i class="fas fa-thumbs-up">
+        </i>
+        <span>
+         Like
+        </span>
+       </button>
+       <button>
+        <i class="fas fa-comment">
+        </i>
+        <span>
+         Comment
+        </span>
+       </button>
+       <button>
+        <i class="fas fa-share">
+        </i>
+        <span>
+         Share
+        </span>
+       </button>
+      </div>
+     </div>
+     <div class="card post">
+      <div class="header">
+       <img alt="User profile picture placeholder" class="h-10 w-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/Gd0kErfowfoXjUTDer82p8ezEZ5DBxQELjoqswtUmMtoI93OB.jpg" width="40"/>
+       <div>
+        <h3>
+         Jane Smith
+        </h3>
+        <p>
+         5 hrs ago
+        </p>
+       </div>
+      </div>
+      <p>
+       Loving the new coffee shop in town!
+      </p>
+      <img alt="Image of a coffee shop interior with people enjoying their coffee" class="w-full rounded-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/Cl3AA3SJq6bMA9ckLCwdONNqrvHeoOfo6i7662GDuBkNSfbnA.jpg" width="600"/>
+      <div class="actions">
+       <button>
+        <i class="fas fa-thumbs-up">
+        </i>
+        <span>
+         Like
+        </span>
+       </button>
+       <button>
+        <i class="fas fa-comment">
+        </i>
+        <span>
+         Comment
+        </span>
+       </button>
+       <button>
+        <i class="fas fa-share">
+        </i>
+        <span>
+         Share
+        </span>
+       </button>
+      </div>
+     </div>
+     <div class="card post">
+      <div class="header">
+       <img alt="User profile picture placeholder" class="h-10 w-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/Gd0kErfowfoXjUTDer82p8ezEZ5DBxQELjoqswtUmMtoI93OB.jpg" width="40"/>
+       <div>
+        <h3>
+         Michael Brown
+        </h3>
+        <p>
+         1 day ago
+        </p>
+       </div>
+      </div>
+      <p>
+       Just finished a 5k run!
+      </p>
+      <img alt="Image of a person running in a park" class="w-full rounded-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/eLuEj7rUS41iAKmnmS3LFLS8xR0oIWRjm74gTdTqSuGIpftTA.jpg" width="600"/>
+      <div class="actions">
+       <button>
+        <i class="fas fa-thumbs-up">
+        </i>
+        <span>
+         Like
+        </span>
+       </button>
+       <button>
+        <i class="fas fa-comment">
+        </i>
+        <span>
+         Comment
+        </span>
+       </button>
+       <button>
+        <i class="fas fa-share">
+        </i>
+        <span>
+         Share
+        </span>
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- Right Sidebar -->
+   <div class="right-sidebar">
+    <div class="card">
+     <h2>
+      Contacts
+     </h2>
+     <ul>
+      <li class="flex items-center space-x-4 mb-2">
+       <img alt="User profile picture placeholder" class="h-10 w-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/Gd0kErfowfoXjUTDer82p8ezEZ5DBxQELjoqswtUmMtoI93OB.jpg" width="40"/>
+       <span>
+        Emily Clark
+       </span>
+      </li>
+      <li class="flex items-center space-x-4 mb-2">
+       <img alt="User profile picture placeholder" class="h-10 w-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/Gd0kErfowfoXjUTDer82p8ezEZ5DBxQELjoqswtUmMtoI93OB.jpg" width="40"/>
+       <span>
+        David Johnson
+       </span>
+      </li>
+      <li class="flex items-center space-x-4 mb-2">
+       <img alt="User profile picture placeholder" class="h-10 w-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/Gd0kErfowfoXjUTDer82p8ezEZ5DBxQELjoqswtUmMtoI93OB.jpg" width="40"/>
+       <span>
+        Sarah Williams
+       </span>
+      </li>
+      <li class="flex items-center space-x-4 mb-2">
+       <img alt="User profile picture placeholder" class="h-10 w-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/Gd0kErfowfoXjUTDer82p8ezEZ5DBxQELjoqswtUmMtoI93OB.jpg" width="40"/>
+       <span>
+        Chris Evans
+       </span>
+      </li>
+      <li class="flex items-center space-x-4 mb-2">
+       <img alt="User profile picture placeholder" class="h-10 w-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/Gd0kErfowfoXjUTDer82p8ezEZ5DBxQELjoqswtUmMtoI93OB.jpg" width="40"/>
+       <span>
+        Jessica Lee
+       </span>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  
+  <script src="app.js"></script>
+ </body>
+</html>
